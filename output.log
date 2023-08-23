@@ -1,0 +1,70 @@
+INFO:root:     Name  Age  Gender
+0   Alice   25  Female
+1     Bob   30    Male
+2  Claire   27  Female
+INFO:root:     Name  Age  Gender
+0   Alice   25  Female
+1     Bob   30    Male
+2  Claire   27  Female
+INFO:root:0     4
+1     8
+2    15
+3    16
+4    23
+5    42
+dtype: int64
+INFO:root:0     1
+1     2
+2     3
+3     4
+4     5
+5     6
+6     7
+7     8
+8     9
+9    10
+dtype: int64
+INFO:root:     Name  Age  Gender
+0   Alice   25  Female
+1     Bob   30    Male
+2  Claire   27  Female
+INFO:root:DataFrame:     Name  Age  Gender
+0   Alice   25  Female
+1     Bob   30    Male
+2  Claire   27  Female
+INFO:root:
+
+INFO:root:Series:Alice     25
+Bob       30
+Claire    27
+Name: Age, dtype: int64
+INFO:root:  Rk        Player Pos Age   Tm   G  GS    MP   FG  FGA  ...   FT%  ORB  DRB   
+0  1    Quincy Acy  PF  24  NYK  68  22  1287  152  331  ...  .784   79  222  \
+1  2  Jordan Adams  SG  20  MEM  30   0   248   35   86  ...  .609    9   19   
+2  3  Steven Adams   C  21  OKC  70  67  1771  217  399  ...  .502  199  324   
+3  4   Jeff Adrien  PF  28  MIN  17   0   215   19   44  ...  .579   23   54   
+
+   TRB AST STL BLK TOV   PF  PTS  
+0  301  68  27  22  60  147  398  
+1   28  16  16   7  14   24   94  
+2  523  66  38  86  99  222  537  
+3   77  15   4   9   9   30   60  
+
+[4 rows x 30 columns]
+INFO:root:  Rk        Player Pos Age   Tm   G  GS    MP   FG  FGA  ...   FT%  ORB  DRB   
+0  1    Quincy Acy  PF  24  NYK  68  22  1287  152  331  ...  .784   79  222  \
+1  2  Jordan Adams  SG  20  MEM  30   0   248   35   86  ...  .609    9   19   
+2  3  Steven Adams   C  21  OKC  70  67  1771  217  399  ...  .502  199  324   
+3  4   Jeff Adrien  PF  28  MIN  17   0   215   19   44  ...  .579   23   54   
+
+   TRB AST STL BLK TOV   PF  PTS  
+0  301  68  27  22  60  147  398  
+1   28  16  16   7  14   24   94  
+2  523  66  38  86  99  222  537  
+3   77  15   4   9   9   30   60  
+
+[4 rows x 30 columns]
+INFO:root:     Name  Age  Gender
+0   Alice   25  Female
+1     Bob   30    Male
+2  Claire   27  Female
